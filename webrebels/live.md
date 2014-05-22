@@ -101,4 +101,6 @@ designers, developers, user experience
 
 "How can github.com be easier, better for new users?"
 
+## Rebel and Evolve: Moving beyond point-and-click - Anette Bergo @anettebgo
+
 
