@@ -396,4 +396,17 @@ Primus also has a node client.
 
 Primus supports plugins and middleware - makes keeping the core light easy
 
+## BitTorrent, Streams and JavaScript - Mathias Buus - @mafintosh
+
+1. What is bitTorrent
+2. BitTorrent streaming
+3. Mad science!
+
+### BitTorrent
+
+[Problems with scaling client->server downloads are explained]
+[basic idea bitTorrent is explained]
+
+
+
 
