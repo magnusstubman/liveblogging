@@ -222,4 +222,20 @@ Some browsers have "force enable zoom" which solves the problem.
 ### Don't forget mouse/keyboard!
 working example: bradfrostweb.com/demo/mobile-first/
 
+### Warning
+touchmove first... alot!
+do minimum on each touchmove .. thousands of events happening. 
 
+### Stop at single point? multitouch
+
+iOS/iPAD preventDefualt() cant override 4-finger gestures. Anything above 3 fingers. you can't do in your app.. iOS will try to switch to another app
+
+#### multi touch gestures - purely iOS stuff
+
+gesturestart
+gesturechange
+gestureend
+
+If your only targeting iOS, stay away from it.
+
+Old devices does not support multitouch devices.
