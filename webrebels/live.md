@@ -270,4 +270,37 @@ How many points does the hardware support?
       // do stuff 
     }
 
+## # process.env.NODE_ENV === 'PRODUCTION' for all your "webscale" apps! - Nuno Job - @dscape
+
+How to make your nodejs app production ready.
+
+works for YLD
+
+Catroulette - cat vs humans - only cuteness comes out of it
+
+### node/npm is super powerful - and therefore scary to put into production
+
+Is it truly web-scale sauce?
+
+How can i support this thing in production and avoid disaster?
+
+apms: newrelic, strongops, github.com/lloyd/node-toobusy
+
+massive scale: apms hurt your performance
+
+### What to look for
+basics: cpu, mem, disk
+what code paths are the slowest?
+is the event loop blocked? for how long? blocked why?
+How many requests are you handling? normal? low?
+what are you connection pool size? Adjust and re-run tests
+memory leak?
+database latency?
+other services?
+
+cpu bound? Use flame graphs (d-trace)
+
+Insert raygun to get uncaught exceptions
+
+
 
