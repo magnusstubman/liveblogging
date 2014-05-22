@@ -103,4 +103,22 @@ designers, developers, user experience
 
 ## Rebel and Evolve: Moving beyond point-and-click - Anette Bergo @anettebgo
 
+Ubuquitous web - technology accessible for anyone, anywhere anytime
+
+step 1: responsible web design
+progressive enhancement - graceful degradation
+
+### Alternative to mouse interaction
+
+#### keyboard
+Shortcuts, How may webdevelopers create shortcuts for our webapps? It's awesome! Do it!
+
+#### touch
+1 touch event? People have 10 fingers. We should support 10 sources of touch events
+
+Device motion - use shaky gestures, device orientation - tells you something about what environment the user is in - you can respond to that.
+
+I want to be able to use a gamepad to access webapps - I dont want to use the analogue stick to move a pointer around on the screen to click on links.
+Demo: guitarheros drums to access marketplace.com "natively"
+
 
