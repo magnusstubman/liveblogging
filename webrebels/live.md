@@ -405,8 +405,55 @@ Primus supports plugins and middleware - makes keeping the core light easy
 ### BitTorrent
 
 [Problems with scaling client->server downloads are explained]
+
 [basic idea bitTorrent is explained]
 
+[Problems with having a central torrent server is explained, DHT (distributed hash tables) are explained]
 
+DHT tracking: https://dsn.km.kit.edu/english/2936.php  - 10 000 000 nodes at any time
+
+Summary: bittorrent + DHT is awesome for sharing content
+
+### Node
+
+What the speaker likes about Node:
+- async
+- community
+- npm
+- Streams are a first class citizen
+
+### NODE.JS STREAMS + BITTORRENT = <3 ?
+### REALTIME + NODE.JS STREAMS + BITTORRENT = <3
+
+Risk of high latency ==> does not seem realtime
+
+Solution: fetch same piece from multiple peers to avoid one peer choking/being slow
+
+Keep track of slow peers, and use them to fetch less important pieces.
+Use high value peers to fetch important (the first) pieces.
+
+If a fast peer becomes slow swap him for another peer
+
+Wastes a little bandwidth, but will probably be fine.
+
+Module that demoes this: torrent-stream
+
+
+Demo - torrent-stream is demoe
+
+Torrent-stream + vlc = <3 <3<3<3 ??
+
+Peerflix!
+github.com/mafintosh/peerflix
+
+
+Mounting torrent-streams to the file system? YES: torrent-mount
+
+just call # torrent-mount <magnet link>
+
+The ultimate? Can you install Ubuntu in real time? with streaming?
+
+YES - torrent-mount a ubuntu install magnet link
+then reading the file with virtualbox and installing ubuntu in a new image <- WORKS, but a bit slow
 
 
