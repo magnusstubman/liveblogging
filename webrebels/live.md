@@ -1,8 +1,8 @@
 # WebRebels 2014 - day 1
 
 Change from last year:
-# @janl is introducing presenters
-# questions for the speakers should be posted on twitter marked #webrebels
+* @janl is introducing presenters
+* questions for the speakers should be posted on twitter marked #webrebels
 
 ## No man is an APIsland - Jan Schmidt - @janschmidt
 
