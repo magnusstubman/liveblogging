@@ -494,3 +494,10 @@ But how about 'typeof x == "function"'? That's fine because typeof always return
 
 #### 3. Play == Learning
 
+Remember to distinguish between play and professional work
+
+JavaScript is not a Science
+Your code will break - it always does.
+Keep it simple and human readable so its easier to fix.
+
+Dont taake anything i've said too seriou. I'm just exploring.
