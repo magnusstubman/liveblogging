@@ -91,5 +91,5 @@ ref. nodeschool.io
 ### git-it 
 https://github.com/jlord/git-it
 
-a terminal app for learning git 
+a terminal app for learning git and the github workflow
 
