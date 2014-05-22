@@ -219,4 +219,7 @@ If the user wants to zoom, let them zoom.
 
 Some browsers have "force enable zoom" which solves the problem.
 
+### Don't forget mouse/keyboard!
+working example: bradfrostweb.com/demo/mobile-first/
+
 
