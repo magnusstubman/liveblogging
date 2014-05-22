@@ -132,9 +132,9 @@ e.g. google search with speach
 
 The browser can also taclk back - web speech API
 
-var u = new SpeechSynthesisUtterance();
-u.text = "Hello web rebels!";
-speechSynthesis.speak(u);
+    var u = new SpeechSynthesisUtterance();
+    u.text = "Hello web rebels!";
+    speechSynthesis.speak(u);
 
 Make your webapp offer to read the text for the user
 
