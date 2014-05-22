@@ -263,4 +263,10 @@ feature detection:
       // do stuff
     }
 
+How many points does the hardware support?
+
+    if (navigator.maxTouchPoints > 0) {
+      // do stuff 
+    }
+
 
