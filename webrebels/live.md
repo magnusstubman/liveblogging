@@ -239,3 +239,28 @@ gestureend
 If your only targeting iOS, stay away from it.
 
 Old devices does not support multitouch devices.
+
+### What about Internet Explorer?
+
+One browser that didnt implement touch events - internet explorer.
+up to IE9, only mouse events
+
+#### Pointer model - unifying touch and mouse [...]
+Pointer events - actually not that bad
+Growing support.. w3 spec
+
+Chromium are adding pointer events
+Mozilla, same thing
+Apple is not implementing it.
+
+(see slides for pointer event sequence)
+
+Pointer events extend mouse events
+
+feature detection:
+
+    if (window.PointerEvent) {
+      // do stuff
+    }
+
+
