@@ -1,4 +1,4 @@
-# WebRebels - day 1
+# WebRebels 2014 - day 1
 
 Change from last year:
 # @janl is introducing presenters
