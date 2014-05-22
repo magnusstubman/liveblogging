@@ -492,4 +492,5 @@ But the google v8 performance tuning talk tells you to use new Array(num) for be
 Douglas crookford says to always use triple equals (===)
 But how about 'typeof x == "function"'? That's fine because typeof always returns a string.
 
+#### 3. Play == Learning
 
