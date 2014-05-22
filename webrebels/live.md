@@ -190,6 +190,8 @@ If i move my finger too much, then the touch event is not registered as a click 
 
 All browsers have small variations in the event sequence
 
+solution: double up event handing, listen to mousemove and touchmove.
+
 ### feature detection
 interlude: simple feature detection in browser
 
@@ -205,5 +207,16 @@ touch AND mouse AND keyboard.
 Solution: double up your event listeners
 Use e.preventDefualt() to stop same "event" to be fired multiple times.
 BEWARE: preventDefualt() kills scrolling, pinch/zoom etc.. So careful!
+
+Browsers are working to remove 300ms delay, becuase it has been the biggest problem in the mobile space. Browsers are aware of that.
+Especially when the page is not zoomable. So no need to wait.
+meta user-scalable=no removes the delay in firefox/chrome
+
+### Accessibility
+
+"this page cant zoom" - you are killing people with reading issues.
+If the user wants to zoom, let them zoom.
+
+Some browsers have "force enable zoom" which solves the problem.
 
 
