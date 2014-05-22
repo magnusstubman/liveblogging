@@ -87,3 +87,8 @@ nodeconf
 ref. nodeschool.io
 
 
+### git-it 
+https://github.com/jlord/git-it
+
+a terminal app for learning git 
+
