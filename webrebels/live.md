@@ -441,7 +441,7 @@ Module that demoes this: torrent-stream
 
 Demo - torrent-stream is demoe
 
-Torrent-stream + vlc = <3 <3<3<3 ??
+Torrent-stream + vlc = <3 <3 <3 <3 ??
 
 Peerflix!
 github.com/mafintosh/peerflix
@@ -455,5 +455,41 @@ The ultimate? Can you install Ubuntu in real time? with streaming?
 
 YES - torrent-mount a ubuntu install magnet link
 then reading the file with virtualbox and installing ubuntu in a new image <- WORKS, but a bit slow
+
+## STOP BEING PERFECT - @angustweets
+
+British, live in America, work for Twitter, frontend infrastructure team
+
+Writing a book: "IF HEMINGWAY WROTE JAVASCRIPT"
+
+
+### JavaScript
+
+10 % deceptively familiar syntax
+90 % weird shit
+
+typeof NAN = "number"
+
+
+### Why do we need imperfection?
+
+#### 1. technology thrives on Open Minds
+"Behold, this comma operator"
+
+
+#### 2. Context > dogma
+"Wow such call-backs!"
+examples: classical inheritance is for many considered good standard.
+Javascript prototypical inheritance is actually classical inheritance
+
+inheritance in javascript takes alot of code and this is why people hate javascript.
+
+Solution: throw out OO entirely
+
+Google style guides says to use primitives vs constructors,
+But the google v8 performance tuning talk tells you to use new Array(num) for better performacne in hot code.
+
+Douglas crookford says to always use triple equals (===)
+But how about 'typeof x == "function"'? That's fine because typeof always returns a string.
 
 
