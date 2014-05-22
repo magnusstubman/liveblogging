@@ -68,3 +68,22 @@ Demo
 cooking -> human productivityl  (the brain was developed when we started cooking our food instead of eating it raw)
 
 compiling -> developer productivity
+
+
+# Git-it, Share it - Jessica Lord  - @jllord
+
+
+- Why git-it
+- building git-it
+- git-it and github
+
+## WHy git-it
+
+Hosting community hack nights - git and github is not straight forward
+"Leave with your first pull request, shiny green contribution squares"
+Its hard to learn git
+
+nodeconf
+ref. nodeschool.io
+
+
