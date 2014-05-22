@@ -147,6 +147,7 @@ We get to make things a little bit better. The audience is not the webrebels aud
 
 
 ## Getting touchy - an introduction to touch and pointer events - Patrick H. Lauke - @patrick_h_lauke
+Slides: slideshare.net/redux
 
 mostly touch screen based stuff in this talk. Speaker used to work for Opera.
 
