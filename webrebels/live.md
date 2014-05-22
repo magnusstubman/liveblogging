@@ -93,3 +93,11 @@ https://github.com/jlord/git-it
 
 a terminal app for learning git and the github workflow
 
+When you finish git-it, your name gets shown on 
+
+
+### NUX team
+designers, developers, user experience
+
+"How can github.com be easier, better for new users?"
+
