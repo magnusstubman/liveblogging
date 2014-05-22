@@ -4,7 +4,7 @@ Change from last year:
 # @janl is introducing presenters
 # questions for the speakers should be posted on twitter marked #webrebels
 
-## No man is an APIsland - Jan Schmidt
+## No man is an APIsland - Jan Schmidt - @janschmidt
 
 works at UNIQLO, 140byt.ex, brooklynjs.com 
 coiner of "manburger icon"
