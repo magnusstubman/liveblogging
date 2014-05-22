@@ -362,7 +362,7 @@ Changing product specs == rewrite application
 
 ### What if we could change this too...
 
-Primus - wraps and improve populaire real-time frameworks. so you can focus on building apps.
+Primus.io - wraps and improve populaire real-time frameworks. so you can focus on building apps.
 
 #### Community
 Growing steady
