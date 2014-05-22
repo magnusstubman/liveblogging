@@ -302,5 +302,98 @@ cpu bound? Use flame graphs (d-trace)
 
 Insert raygun to get uncaught exceptions
 
+## Transforming WebSockets - Arnout Kazemier @3rdEden
+lead engeneer at nodejitsu
+
+Major browsers are supporting the latest RFC of websockets:
+
+* chrome 20
+* firefox 12
+* opera 12.1
+* safari 6
+* IE 10
+
+Bi-directional
+supports binary
+
+Thats it
+
+### the parts that nobody told you
+
+"auto proxy discovery" in os x can fully crash your browser
+
+iOS bug: writing to a closed websocket - fully crashes browser
+Workaround: add setTImeout when you start writing to the socket, but only for iOS.
+
+Pressing ESC in Firefox closes the WebSocket connection - makes no sense when the page is fully loaded.
+Workaround: capturing the ESC event and just preventDefault() on body. - fixed in firefox 20
+
+Firefox can create ghost connection when you connect during ws.onclose. Will stay alive forever, until you completely shutdown firefox. closing tab doesnt work.
+
+Don't use self signed SSL certificates, blocked on firefox/safari, not for development and not in production.
+
+4G, 3G, LTE mobile providers have reverse proxies - websockets doesnt work.
+Workaround: use secure connections to block out reverse proxies
+
+Virus scanners such as AVG block websockets
+
+user, network and server firewalls block WebSockets.
+
+Load balancers dont understand and block WebSockets
+workaround: use load balancer in TCP mode <- not optimal
+
+### What if we could fix all this...
+
+Use framework? No!
+
+ws - github.com/einaros/ws/
+
+socket.io - dont use it in production - use it for demos - full of bugs - nobody gives a shit about it anymore
+
+engine.io - Better than socket.io - not well battle tested yet - no message order guarantee - support multiple transports, cross domain, upgrade instead of downgrade, works behind firewalls & virusscanners
+github.com/learnboost/engine.io
+
+browserchannel - not cross domain - no websocket support - coffeescript on the server - multiple transports, client maintained by google , message order guaranteed, works behind firewalls & virusscanners
+
+sockjs - poor error handling, no error handler, no query string allowed for connect, more coffeescript, connection delay with firewalls, pooly maintained, last update 2 years ago. New maintainer now? perhaps better, cross domain, multiple transports (tons of them)
+
+different use cases and APIs
+Changing product specs == rewrite application
+
+### What if we could change this too...
+
+Primus - wraps and improve populaire real-time frameworks. so you can focus on building apps.
+
+#### Community
+Growing steady
+Everything can be extended.
+Reached 1000 stars on github
+5 members
+Promising.
+
+1 line of code to switch between all these different frameworks <- awesome!
+    #primus on irc.freenode.net
+
+#### bigpipe.ie - released a week ago
+wrapping engine to be more useful for developers
+
+Use primus if you want to include real time functionality in your framework
+So primus is aimed at module and framework authors
+
+#### Stability
+
+Primus makes the frameworks more stable because they are wrapped and messages are slightly modified to avoid bugs in the frameworks
+
+fully stream compatible, 
+
+Primus enables transformation of messages
+
+Reconnect - one if the vital things when building realtime apps. Remember to do a randomize exponential backoff such that all disconnected clients doesnt DDoS your server if everyone is disconnected simulatiously. Primus supports this.
+
+Broadcasting - primus can broadcast messages to all connected clients
+
+Primus also has a node client.
+
+Primus supports plugins and middleware - makes keeping the core light easy
 
 
