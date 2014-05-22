@@ -146,4 +146,64 @@ Be boring about it - dont do big exciting things. We build boring sites for bori
 We get to make things a little bit better. The audience is not the webrebels audience. So be boring.
 
 
+## Getting touchy - an introduction to touch and pointer events - Patrick H. Lauke - @patrick_h_lauke
+
+mostly touch screen based stuff in this talk. Speaker used to work for Opera.
+
+Slides will go online.
+
+"How do i know if my site is touch compatible?" You don't need to test it.
+touch screen devices are mapped to classic mouse events.
+This emulation works but is limiting/problematic.
+
+### Spec
+
+Apple "invented" touch events, adopted by chrome/firefox/opera
+www.w3.org/TR/touch-events
+
+touchstart
+touchmove
+touchend
+touchcancel
+~~touchenter~~ <- not part of the spec
+~~touchleave~~ <- not part of the spec
+
+(See slides for tap sequences)
+### delayed event dispatch
+
+When listening on click evnets, and the user taps, theres usually around 300ms of delay.
+mousemove is only emulated when i tap and release. There is only one mousemove event sent when i move my finger around (upon release).
+
+Why the delay? - if the browser didnt wait then the browser had no way of knowing if it was a single/double tap
+
+#### When does the delay happen?
+touchstart/touchmove, touchend -- 300ms delay --  
+
+#### How can i make my app feel responsive with the delay?
+Naive response: react before the 300ms delay.
+touchstart for an "immediate" control. fires after finger lifted
+
+### mousemove not tracking
+
+mouse evnets only fired for single-finger tap. so if you use multi fingers then no click events are fired.
+If i move my finger too much, then the touch event is not registered as a click event.
+
+All browsers have small variations in the event sequence
+
+### feature detection
+interlude: simple feature detection in browser
+
+Hybrid devices: keyboard, trackpad, touchscreen
+Users switch between touchscreen and mouse/keyboard
+
+dont think
+touch OR mouse OR keyboard.
+
+Think:
+touch AND mouse AND keyboard.
+
+Solution: double up your event listeners
+Use e.preventDefualt() to stop same "event" to be fired multiple times.
+BEWARE: preventDefualt() kills scrolling, pinch/zoom etc.. So careful!
+
 
