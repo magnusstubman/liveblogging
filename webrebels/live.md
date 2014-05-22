@@ -121,4 +121,31 @@ Device motion - use shaky gestures, device orientation - tells you something abo
 I want to be able to use a gamepad to access webapps - I dont want to use the analogue stick to move a pointer around on the screen to click on links.
 Demo: guitarheros drums to access marketplace.com "natively"
 
+Moral: use action buttons to trigger specific events
+
+#### visual interaction
+Gestues through webcam to navigate websites - swipe back/forward
+
+#### Audio interaction
+e.g. google search with speach
+... some security issues. if you enable microphone once in chrome, all subdomains will forever have access.
+
+The browser can also taclk back - web speech API
+
+´´´
+var u = new SpeechSynthesisUtterance();
+u.text = "Hello web rebels!";
+speechSynthesis.speak(u);
+´´´
+
+Make your webapp offer to read the text for the user
+
+swipe, play, tilt, shake, wave, punch, touch, type listen, press, click, speak <- greatly enhancess accessability
+
+You can't dictate how users are going to interact with your site. We are the people who decide which direction the web is gonna go in. 
+Be boring about it - dont do big exciting things. We build boring sites for boring companies who want boring designs. Just grab a couple of hours and add one interesting features to one of those boring sites. DOnt try to build massive beautiful apps. We dont get to do that.
+
+We get to make things a little bit better. The audience is not the webrebels audience. So be boring.
+
+
 
