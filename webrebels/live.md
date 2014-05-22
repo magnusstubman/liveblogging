@@ -66,4 +66,5 @@ Demo
 "Lets use virtual DOMs as our asm.dom"
 
 cooking -> human productivityl  (the brain was developed when we started cooking our food instead of eating it raw)
+
 compiling -> developer productivity
