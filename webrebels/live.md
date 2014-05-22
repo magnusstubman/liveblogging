@@ -79,9 +79,10 @@ compiling -> developer productivity
 
 ## WHy git-it
 
+Its hard to learn git
+
 Hosting community hack nights - git and github is not straight forward
 "Leave with your first pull request, shiny green contribution squares"
-Its hard to learn git
 
 nodeconf
 ref. nodeschool.io
