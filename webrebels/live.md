@@ -668,4 +668,21 @@ TLS performance tune-ip:  istlsfastyet.com
 
 Free SSL certificates startssl.com <- personal use
 
-TLS is easy to deploy
+TLS is easy to deploy - easy to make some mistakes too
+
+### Get TLS right
+
+expired certificates 30 % traffic drop <- 70 % of users dont care!
+
+1. support only HTTP
+2. support only HTTPS <- best state of security
+3. support both <- here is where downgrade situations happen <- not good
+
+Browsers will block any kind of active mixed content  eg https page including http css/js/other resources
+
+Solution:
+1. use relative URLS
+2. omitting the scheme completely
+
+
+
