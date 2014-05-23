@@ -605,4 +605,5 @@ I've enjoyed using it. You should try it. Solid library.
 
 Slides/everything is availanle at github.
 
+Not a fan of full stack frameworks. 
 
