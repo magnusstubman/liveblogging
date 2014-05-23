@@ -501,3 +501,45 @@ Your code will break - it always does.
 Keep it simple and human readable so its easier to fix.
 
 Dont taake anything i've said too seriou. I'm just exploring.
+
+# Day 2
+
+## Seeing Types in JavaScript - Marijn Haverbeke - @marijnjh
+ternjs.net  attempt of improving javascript editor integration.
+
+- has autocomplete
+- types of parameters of APIs
+- jump to definition
+- refactor names
+- infer types such that .t suggests .toString() for strings
+
+Done by parsing the code to an AST (abstract syntax tree)
+
+Parsing of syntactically invalid code is possible by cleaning up the code in the background.
+
+Types are inferred by observation of assignment
+
+Type inference is not easy - e.g. look at coffeescript inheritance - copying/changing prototypes 
+
+### real world coding
+Pretty fast: 10 000 lines/sec - not fast enough. you don't want to wait 3 seconds for your autocomplete 
+solution: Only parse file where changes are made, keep data from previous analysis runs on other files.
+
+Parsing of requireJS/commonJS - keep a "budget" for each dependency and simply stop analyzing when the amount of parsed expressions have reached a threshold.
+
+Plugins for Emacs, Vim, & Sublime Text
+- install editor plugin
+- add .tern-project file
+- go
+
+Not perfect, it's fuzzy analysis, doesnt always work. In static language you can rely on autocomplete, but this is javascript (dynamic) but it still has value with some limited autocompletion.
+
+Alternatives: simply run the program - cut off side effects - and simply keep the types from the run.
+
+The ultimate solution would probably be the best of both worlds: runtime inference and statical analysis/parsing.
+
+github.com/marijnh/tern
+
+## Not Mobile-Unfriendly UI Components With React - Arne Martin Aurlien - @arnemart
+
+
