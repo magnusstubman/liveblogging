@@ -730,3 +730,8 @@ p2p maps:
 peermaps - use torrent-stream to stream maps from well seeded open source map torrents
 
 Make things that just need to exist, such that we can take them for granted, such that we can hack the planet
+
+
+Work on things immediately when you have an idea.. You are motivated when you have an idea, and it will probably go awawy if you sit on it too long.
+
+
