@@ -603,3 +603,5 @@ Error messages are really good when developing with react and node
 React exists.
 I've enjoyed using it. You should try it. Solid library.
 
+Slides/everything is availanle at github.
+
