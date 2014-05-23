@@ -636,6 +636,21 @@ node: topoJSON
 
 tilemill = use css to change color of parts of the maps
 
+## Got TLS? An overview of why you need it and how to do it right. - Parisa Tabriz @laparisa
 
+slides: bit.ly/gottls
+
+### What's TLS? formerly known as SSL
+
+Transport layer security
+Provide security communication over the internet
+
+TLS heart of https
+privacy via encryption
+data integrity <- no snooping tampering
+
+TLS prevents "man in the middle attacks"
+
+Assume no data security if your not using TLS
 
 
