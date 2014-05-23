@@ -734,4 +734,4 @@ Make things that just need to exist, such that we can take them for granted, suc
 
 Work on things immediately when you have an idea.. You are motivated when you have an idea, and it will probably go awawy if you sit on it too long.
 
-
+How do you get time? Live cheaply.... i guess?
