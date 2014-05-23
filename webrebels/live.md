@@ -737,4 +737,4 @@ Work on things immediately when you have an idea.. You are motivated when you ha
 How do you get time? Live cheaply.... i guess?
 The most important thing is that they are fun!
 
-
+The funness of little pieces is the thing that drives me.
