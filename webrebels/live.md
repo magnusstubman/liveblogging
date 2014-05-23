@@ -685,4 +685,19 @@ Solution:
 2. omitting the scheme completely
 
 
+http header attributes:
+
+    Secure: HttpOnly
+
+    Strict-Transport-Security: max-age=60000;
+    includeSubDomains
+
+TLS is not a security silver bullet:
+
+1. some information leaks possible
+2. no protection against IP-level threats
+3. Other web security bugs may remain.
+
+TLS piggybacks on HTTP
+
 
