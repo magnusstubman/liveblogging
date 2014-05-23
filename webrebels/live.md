@@ -564,4 +564,21 @@ React has stupid naming: React.createClass <- author was high as a kite
 
 -- live coding --
 
+#### Side note 1: jsx - theres always a catch
+JS: Not good enough
+JSX: crazy way of inserting html into the DOM 
+
+#### Mobile?
+What do i do to make my component mobile-friendly? General rules applies
+
+Not a whole lot:
+
+- dont be an idiot (dont rely on hovering,.. etc)
+
+If you need touchEvents:
+
+    React.initializeTouchEvents(true); // will go away in the future?
+
+#### Side note 2: Topcoat
+CSS library by Adobe - "fast clean web apps"
 
