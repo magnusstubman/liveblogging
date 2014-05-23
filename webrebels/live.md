@@ -653,4 +653,19 @@ TLS prevents "man in the middle attacks"
 
 Assume no data security if your not using TLS
 
+### firesheep
+Exploited downgrade vector on open wifi
 
+looked at cookie headers, hijacks those and lets other snoop on others sessions on facebook etc.
+
+### A site without TLS is saying "i dont care about the privacy and security of my users"
+
+### How to get TLS and debunk some myths
+
+Excuses: "dont have TLS becaus eof performance/cost" Legitimate concern 10 years ago. Not today.
+
+TLS performance tune-ip:  istlsfastyet.com
+
+Free SSL certificates startssl.com <- personal use
+
+TLS is easy to deploy
