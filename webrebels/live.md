@@ -725,4 +725,6 @@ studio.substack.net/-/recent
 Having fun is so important, we should embrace it more in programming
 Make things more approachable and interesting
 
+p2p maps:
 
+peermaps - use torrent-stream to stream maps from well seeded open source map torrents
