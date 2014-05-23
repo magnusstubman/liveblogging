@@ -704,5 +704,25 @@ TLS does not protect against DDoS, etc..
 
 ## The ghost of javascript future - James "substack" halliday - @substack
 
+Some of the layers in the software stack will probably stick for very long. posix/unix.. 
+
+The earth will basically melt in 600 million years
+So how are we gonna survive? 
+
+There are some things we need:
+
+1. necessary:
+npm
+nodejsbrowsers
+browserify
+etc
+
+We should probably spend more time documenting what we do 
+e.g. browserify-handbook @ github
+
+2. Have fun:
+studio.substack.net/-/recent
+Having fun is so important, we should embrace it more in programming
+Make things more approachable and interesting
 
 
