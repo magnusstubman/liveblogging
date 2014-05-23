@@ -738,3 +738,6 @@ How do you get time? Live cheaply.... i guess?
 The most important thing is that they are fun!
 
 The funness of little pieces is the thing that drives me.
+
+Never compare yourself to the A-game of others.
+
