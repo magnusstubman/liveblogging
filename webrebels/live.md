@@ -700,4 +700,7 @@ TLS is not a security silver bullet:
 
 TLS piggybacks on HTTP
 
+TLS does not protect against DDoS, etc..
+
+
 
