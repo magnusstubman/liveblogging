@@ -607,4 +607,35 @@ Slides/everything is availanle at github.
 
 Not a fan of full stack frameworks. 
 
+## Geography for Web Mapping: the Good, the Bad, and the Stuff You Can Forget - Camille Teicheira @fulgenteft
+
+slides on github and twitter
+
+### "intro to neogeography"
+
+maptime.io
+
+Why are people interested in maps? Because representation is important.
+
+Alot of customizations are possible with open street maps
+
+custom directions: routes for scooters -> avoid high speed roads, hills etc..
+
+#### Geodata
+
+(lng, lat) === (x,y) <- geoJSON
+
+node: topoJSON
+.. but jut use geojson unless you have problems with size of files
+
+#### What do i do with this data?
+
+1. commit geoJSOn to github
+2. mapbox.com create a account and upload files 
+3. use a mapping library leaflet.js  (tilemill, tilemill, etc)
+
+tilemill = use css to change color of parts of the maps
+
+
+
 
