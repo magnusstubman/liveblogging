@@ -580,5 +580,26 @@ If you need touchEvents:
     React.initializeTouchEvents(true); // will go away in the future?
 
 #### Side note 2: Topcoat
-CSS library by Adobe - "fast clean web apps"
+CSS library by Adobe - "fast clean web apps" - react library react-topcoat
+
+-- live coding --
+
+React components have both "props" and "state"
+
+props are things which are sent into a component - will always be passed in and a component should never try to change them
+state is internal state to a specific cokmponent - should never be changed by outside components. Usually changed by component that owns it by result of user interaction
+
+-- live coding --
+
+componentDidUpdate <- called whenever the component is updated. Can be used to save the state of the component into local storage 
+Use getInitialState to retrieve data from local storage
+
+#### Side note 3: error messages
+
+Error messages are really good when developing with react and node
+
+### Summary
+
+React exists.
+I've enjoyed using it. You should try it. Solid library.
 
