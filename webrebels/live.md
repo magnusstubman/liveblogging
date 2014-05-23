@@ -728,3 +728,5 @@ Make things more approachable and interesting
 p2p maps:
 
 peermaps - use torrent-stream to stream maps from well seeded open source map torrents
+
+Make things that just need to exist, such that we can take them for granted, such that we can hack the planet
