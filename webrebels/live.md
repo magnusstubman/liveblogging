@@ -542,4 +542,26 @@ github.com/marijnh/tern
 
 ## Not Mobile-Unfriendly UI Components With React - Arne Martin Aurlien - @arnemart
 
+Befungius - enterprise level befunge interpreter - super fast tracing JIT compiler - voxel.js based editor
+j/k (sorry)
+
+### React
+Yet another javascript UI lirbary - has some special tricks
+Created by Facebook
+About creating self.contained reusable UI components - no routing - not full stack framework
+Some use it as V as in MVC  some use it with backbone - but you dont need to do classic MVC at all
+
+React was created because the DOM is stupid - hard to work with - statefull mess.
+Frameworks proveid two-way binding betwen UI and app state - angulare/ember/backbone/knockout - can get really messy if your not deciplined. You often get tight coupling between controllers and models.
+
+React tries to solve this - by having very loose coupling between components.
+React allows you to do one way databinding - the "flux" pattern
+
+React will rerender your entire applicatione every time there is an update. Treat your app like a stateless web app. But isn't the DOM too slow to do this? YES its terribly slow.
+Solution: implement virtual DOM - rerender into the virtualDOM, which is then diffed to the real DOM, which then calculates the minimum amount of changes.
+
+React has stupid naming: React.createClass <- author was high as a kite
+
+-- live coding --
+
 
