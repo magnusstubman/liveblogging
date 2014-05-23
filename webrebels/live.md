@@ -702,5 +702,7 @@ TLS piggybacks on HTTP
 
 TLS does not protect against DDoS, etc..
 
+## The ghost of javascript future - James "substack" halliday - @substack
+
 
 
