@@ -607,3 +607,4 @@ Slides/everything is availanle at github.
 
 Not a fan of full stack frameworks. 
 
+
