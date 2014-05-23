@@ -741,3 +741,5 @@ The funness of little pieces is the thing that drives me.
 
 Never compare yourself to the A-game of others.
 
+If you publish things which are really stupid, it's okey. nobody is gonna know about it.
+The first version of browserify was completely wrong of all things.. It's okey to play and fail. Failing is important part of the process.
